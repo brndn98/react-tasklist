@@ -8,7 +8,9 @@ const TaskList = () => {
   const listEndRef = useRef(null);
 
   const scrollListToBottom = () => {
-    listEndRef.current.scrollIntoView({ behavior: "smooth" });
+    listEndRef.current
+      ? listEndRef.current.scrollIntoView({ behavior: "smooth" })
+      : console.log("Task List empty.");
   };
 
   useEffect(() => scrollListToBottom, [tasks]);
