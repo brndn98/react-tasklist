@@ -181,6 +181,10 @@ h4 {
     width: 15%;
   }
 
+  .task-item > div {
+    top: -10%;
+    color: #3d3d3d;
+  }
   .task-item > div:hover {
     color: #59c;
   }
