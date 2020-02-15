@@ -16,8 +16,8 @@ body {
 }
 
 .App {
-  width: 95%;
-  height: 95%;
+  width: 98%;
+  height: 98%;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -54,7 +54,7 @@ body {
   */
   padding: 0 2%;
   border-radius: 25px;
-  background-color: rgb(72, 123, 161);
+  background-color: #487ba1;
   color: #eee;
 }
 
@@ -124,10 +124,10 @@ h4 {
 }
 .task-item > div {
   position: absolute;
-  top: -10%;
+  top: -14%;
   right: 4%;
   font-size: 3em;
-  color: #3d3d3d;
+  color: #487ba1;
   transform: rotate(45deg);
   cursor: pointer;
   transition: color 0.2s;
